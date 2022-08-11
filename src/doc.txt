@@ -1,0 +1,10 @@
+Compilacion a una version Especifica
+npx tsc archivo_typescript.ts --target es6
+
+
+Direccionar la Compilacion a una carpeta
+npx stc src/*.ts --target es6 --outDir dist
+
+
+Genera tsconfig
+npx tsc --init
