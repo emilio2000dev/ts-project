@@ -11,6 +11,14 @@
 
 
   let arrayAny:any;
-  
+
+  //Tratar Any como un primitivo
+  //Caso 1
+  let myDynamicVarString = "HOLA";
+  const otherString = (myDynamicVarString as string).toLowerCase();
+
+  //Caso 2
+  let myDynamicVarNum = 1212;
+  const otherNumber = (<number>myDynamicVarNum).toFixed();
 
 })
