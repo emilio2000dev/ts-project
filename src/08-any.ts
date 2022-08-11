@@ -9,4 +9,8 @@
   myDybamicVar='';
   myDybamicVar=true;
 
+
+  let arrayAny:any;
+  
+
 })
