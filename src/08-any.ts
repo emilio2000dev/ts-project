@@ -21,4 +21,6 @@
   let myDynamicVarNum = 1212;
   const otherNumber = (<number>myDynamicVarNum).toFixed();
 
+  console.log('jgjgjhgj')
+
 })
