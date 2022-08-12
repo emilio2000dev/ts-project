@@ -22,7 +22,14 @@
       // Retorna un string
       return `Los números ${a} y ${b} son iguales`;
     }
-}
+  }
+
+
+  function sumar(num1:number, num2:number){
+    return num1 + num2;
+  }
+
+  console.log(sumar(10, 10))
 
 
 
