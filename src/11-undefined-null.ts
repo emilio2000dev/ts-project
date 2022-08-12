@@ -14,4 +14,7 @@
   myString = "Hola TypeScript";
 
 
+  console.log('cambiando console log ')
+
+
 })();
